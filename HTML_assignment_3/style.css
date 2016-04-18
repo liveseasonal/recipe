@@ -1,0 +1,79 @@
+nav{
+	height: 150px;
+	width: 100%;
+	border: solid blue 4px;
+	margin: auto;
+	padding: 20px;
+	background-color: #FF9900;
+}
+
+body{
+	margin: auto;
+	text-align: center;
+}
+
+h2 {
+
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-size: 25px;
+}
+
+
+img {
+	border-radius: 205px;
+	box-shadow: 10px 10px 5px grey;
+	position: relative;
+	clip: rect(20px, 20px, 20px, 20px );
+	display:block;
+	margin: auto;
+}
+
+
+.main_image {
+	height: 340px;
+	width: 960px;
+	overflow: hidden;
+	display:block;
+	margin: auto;
+
+}
+a:hover {
+ color:red;
+ background-color: yellow;
+
+}
+
+button:hover {
+ color: black;
+ background-color: white;
+
+}
+
+.shop_list{
+	border: solid blue 2px;
+	padding: 20px;	
+	background-color: #B4CDCD;
+}
+
+
+table{
+	display:block;
+}
+
+button{
+	height: 40px;
+	width: 150px;
+	border: solid blue 2px;
+	border-radius: 10px;
+	background-color: blue;
+	color:white;
+
+}
+
+.cooking{
+	border: solid #ffc966 2px;
+	padding: 20px;	
+	background-color: #ffc966;
+}

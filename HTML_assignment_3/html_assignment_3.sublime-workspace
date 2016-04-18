@@ -1,0 +1,226 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "(1..100).each{|number|\nif number == % 3\n  puts ('FIZZ')\nelsif number == % 5\n  puts ('BUZZ')\nelsif number == %15\n  puts ('FIZZBUZZ')\nend\n\n\nfor number in 1..100\n  if number % 3 == 0 && % 5 == 0\n    puts \"FIZZBUZZ\"\n  elsif number % 5 == 0\n    puts \"BUZZ\"\n  else\n    puts number\n  end\nend\n\n\n\nprint  \"What do you like to say if its divisible by 3 e.g FIZZ\"\nfirst_answer =gets.chomp\n\nprint  \"What do you like to say if its divisible by 5 e.g BUZZ\"\nsecond_answer =gets.chomp\n\n\n\nmy_array = {}\n\nfor number in 1..100\n  if number % 3 == 0 && % 5 == 0\n    my_array << \"#{first_answer}#{second_answer}\"\n  elsif number % 3 == 0\n    my_array << \"first_answer\"\n  elsif number % 5 == 0\n    my_array << \"second_answer\"\n  else\n    my_array << number\n  end\nend\n",
+			"file": "/Users/gailoakes/Desktop/Desktop/Coding/Ruby Practice/Rubyweek2/FizzBuzz.rb",
+			"file_size": 741,
+			"file_write_time": 1448134413000000,
+			"settings":
+			{
+				"buffer_size": 741,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/gailoakes/Desktop/Desktop/FizzBuzz2.rb",
+			"settings":
+			{
+				"buffer_size": 447,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/code_start/exercise/HTML_assignment_3/recipe.html",
+		"/code_start/exercise/HTML_assignment_3/style.css",
+		"/Users/gailoakes/Downloads/01/recipe.html",
+		"/Users/gailoakes/Desktop/Desktop/Coding/Html CSS Practice/index.html/recipe.html",
+		"/Users/gailoakes/Desktop/javascript basics/index.html",
+		"/Users/gailoakes/Desktop/javascript basics/scripts.js",
+		"/Users/gailoakes/Desktop/javascript basics/script.js",
+		"/Users/gailoakes/Desktop/javascript basics/css/main.css",
+		"/Applications/MAMP/htdocs/liveseasonal/wp-content/themes/liveseasonal/index.php",
+		"/Applications/MAMP/htdocs/liveseasonal/wp-content/themes/liveseasonal/style.css",
+		"/Users/gailoakes/Desktop/about-sam (1) 2/css/style.css",
+		"/Users/gailoakes/Desktop/about-sam (1) 2/index.html",
+		"/Users/gailoakes/Desktop/about-sam (1) 2/readme.html",
+		"/Users/gailoakes/Desktop/index copy.html",
+		"/Users/gailoakes/Desktop/Good Times/about-sam 2/css/style.css",
+		"/Users/gailoakes/Desktop/about-sam 2/index.html",
+		"/Users/gailoakes/Desktop/Good Times/about-sam 2/readme.html",
+		"/Users/gailoakes/Desktop/about-sam 2/css/style.css",
+		"/Users/gailoakes/Desktop/about-sam 2/readme.html",
+		"/Users/gailoakes/Desktop/onemonthhtml/about-sam/readme.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/gailoakes/Desktop/Desktop/Coding/Ruby Practice/Rubyweek2/FizzBuzz.rb",
+					"settings":
+					{
+						"buffer_size": 741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/gailoakes/Desktop/Desktop/FizzBuzz2.rb",
+					"settings":
+					{
+						"buffer_size": 447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								434,
+								434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true
+}
